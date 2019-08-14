@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/shweta_ajaxcoupon",
+    "type": "magento-module",
+    "license": "GPL",
+    "homepage": "",
+    "description": "This will add the coupon code in last step of checkout process.",
+    "authors": [
+    {
+        "name": "Shweta Agarwal",
+        "email": "shweta@ptiwebtech.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

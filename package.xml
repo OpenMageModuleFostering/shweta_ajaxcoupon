@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>shweta_ajaxcoupon</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license>GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This will add the coupon code in last step of checkout process.</summary>
+    <description>This Extension allow to fill coupon at the last step of checkout process.&#xD;
+&#xD;
+It is very easy to customize also. and can be add in any step of checkout Process.</description>
+    <notes>bug free</notes>
+    <authors><author><name>Shweta Agarwal</name><user>Shweta02</user><email>shweta@ptiwebtech.com</email></author></authors>
+    <date>2013-09-26</date>
+    <time>05:27:03</time>
+    <contents><target name="magelocal"><dir name="Shweta"><dir name="Ajaxcoupon"><dir name="Helper"><file name="Data.php" hash="6c50b7e3d382670a4aff49143c5e39ed"/></dir><dir name="controllers"><file name="IndexController.php" hash="bed31f1bb3b56febf498b1845ed11650"/></dir><dir name="etc"><file name="config-original.xml" hash="a23187f2e37a72591019bb185f74c903"/><file name="config.xml" hash="0a2eab1e32de426a4a03a65486d23ead"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="ajaxcoupon.xml" hash="92db44c4188fb715d77c882191c6c762"/></dir><dir name="template"><dir name="ajaxcoupon"><file name="ajaxcoupon.phtml" hash="9c14a872130685df72b3ca13a181b597"/><file name="info.phtml" hash="63278c437ba0d70e73a7a936bea40dcf"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Shweta_Ajaxcoupon.xml" hash="ac9b73c029b448ddb8b33f1c49883a95"/></dir></target><target name="mage"><dir name="js"><dir name="jquery"><file name="jquery-1.6.4.min.js" hash="c40c304e40c34a809ab5f2b2462fe4d9"/><file name="noconflict.js" hash="3179f2255b046d5f2e9a71e365287bef"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
